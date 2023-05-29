@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Express documentation serve using Express.js and Node.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/express.png" type="favicon.png">
+    <title>Express.js Servers Documentation</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Express.js Servers Documentation</h1>
+            <ul>
+                <a href='#Introduction'>
+                    <li>Introduction</li>
+                </a>
+                <a href='#InstallingExpress'>
+                    <li>Installing Express</li>
+                </a>
+                <a href='#ExamplesOfUsage'>
+                    <li>Examples of Usage</li>
+                </a>
+                <a href='#BasicRouting'>
+                    <li>Basic Routing</li>
+                </a>
+                <a href='#Nodemon'>
+                    <li>Nodemon</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside class=''>
+            <section id='Introduction'>
+                <h2>Introduction</h2>
+
+                <article>
+                    <p>
+                        Express is a minimal and flexible Node.js web application framework that provides a robust set
+                        of features for web and mobile applications. It makes much easier to create a server and handle
+                        routing for your application, Express handles things like directing people to the correct page
+                        when they visit a certain endpoint like /blog.
+                    </p>
+                    <p>
+                        Express.js is a minimal and flexible Node.js web framework that provides a robust set of
+                        features for web and mobile applications.
+                    </p>
+
+                    <ul>
+                        <h3>¿Why use Express.js?</h3>
+
+                        <li>
+                            It's easy to set up and customize
+                        </li>
+                        <li>
+                            Its API makes routing easy
+                        </li>
+                        <li>
+                            It includes several middleware modules that you can use to perform tasks in addition to
+                            requests and responses
+                        </li>
+                        <li>
+                            Its integration to different template engines makes it easy and simple to handle
+                        </li>
+                        <li>
+                            Express allows you to define an error handling middleware
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id='InstallingExpress'>
+                <h2>Installing Express</h2>
+
+                <article>
+                    <p>
+                        So that you can install express in your project you have to have installed
+                        <a href="https://nodejs.org/en">
+                            Node.js
+                        </a>, In case you do not have it installed, please go to the page of
+                        <a href="https://nodejs.org/en">
+                            Node.js
+                        </a> and download it, once this step is done we can continue with the installation of express.
+                    </p>
+                    <p>
+                        Create a folder for your app and make it your current working folder.
+                    </p>
+                    <code>
+                        mkdir your-name-app
+                        cd your-name-app
+                    </code>
+                    <p>
+                        Then use the command
+                        <strong>npm init</strong>
+                        to create a
+                        <strong>package.json</strong>
+                        file for your application. For more information on how a
+                        <strong>package.json</strong> works, check out
+                        <a href="https://docs.npmjs.com/cli/v9/configuring-npm/package-json">
+                            npm's package.json handling
+                        </a>
+                    </p>
+                    <code>
+                        npm init
+                    </code>
+                    <p>
+                        This command asks you a series of things in order to configure your
+                        <strong>package.json</strong>. For now, you can just click
+                        <strong>ENTER</strong> with the following exception:
+                    </p>
+                    <code>
+                        entry point: (index.js)
+                    </code>
+                    <p>
+                        Enter
+                        <strong>app.js</strong>, or the name you want the main file to have.
+                    </p>
+                    <p>
+                        Now you can install
+                        <strong>Express.js</strong> using the following command:
+                    </p>
+                    <code>
+                        npm install express or npm i express
+                    </code>
+                    <p>
+                        If you want to temporarily install
+                        <strong>Express.js</strong> use the following command:
+                    </p>
+                    <code>
+                        npm install express --no-save or npm i express --no-save
+                    </code>
+                </article>
+            </section>
+
+        </aside>
+    </main>
+</body>
+
+</html>
